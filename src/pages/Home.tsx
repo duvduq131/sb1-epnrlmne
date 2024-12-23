@@ -17,9 +17,11 @@ export default function Home() {
           <div className="text-white max-w-2xl">
             <h1 className="text-5xl font-bold mb-4">Chào mừng đến với Trường Mầm Non Hạ Mi</h1>
             <p className="text-xl mb-8">Nơi nuôi dưỡng và phát triển những mầm non tương lai</p>
+            <a href="https://facebook.com/vothi.hanh.77" target="_blank" rel="noopener noreferrer">
             <button className="bg-pink-500 text-white px-8 py-3 rounded-full text-lg hover:bg-pink-600">
               Tìm hiểu thêm
             </button>
+            </a>
           </div>
         </div>
       </section>
