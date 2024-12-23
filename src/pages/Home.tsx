@@ -9,7 +9,7 @@ export default function Home() {
       <section 
         className="h-[600px] bg-cover bg-center relative" 
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1587652990400-50897e5a9f40?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")'
+          backgroundImage: 'url("/image/banner.jpg")'
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50" />

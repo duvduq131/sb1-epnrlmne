@@ -19,13 +19,17 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-2 text-sm text-gray-600">
           <div className="flex items-center space-x-4">
-            <div className="flex items-center">
-              <Phone size={16} className="mr-1" />
-              <span>039 966 78 23</span>
+          <div className="flex items-center">  
+                <Phone size={16} className="mr-2 text-pink-500" />  
+                <span>  
+                   <a href="tel:0399667823" className="text-black-600 hover:underline">039 966 78 23 (Cô Hạnh)</a>  
+                </span>  
             </div>
-            <div className="flex items-center">
-              <Mail size={16} className="mr-1" />
-              <span>contact@hami.edu.vn</span>
+            <div className="flex items-center">  
+                <Mail size={16} className="mr-2 text-pink-500" />  
+                <span>  
+                  <a href="mailto:contact@hami.edu.vn" className="text-black-600 hover:underline">contact@hami.edu.vn</a>  
+                </span>  
             </div>
           </div>
         </div>
