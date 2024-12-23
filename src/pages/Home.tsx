@@ -66,11 +66,11 @@ export default function Home() {
       </section>
 
       {/* Posts Feed Section */}
-      <section className="bg-cover bg-center relative">  
-        <div className="h-96 md:h-[600px] bg-gradient-to-b from-blue-500 to-blue-700 flex flex-col justify-center items-center relative">  
-          <h2 className="text-3xl font-bold text-white text-center mb-5">Tin tức & Hoạt động</h2>  
-          <div className="max-w-3xl mx-auto p-4">  
-            <PostFeed /> 
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Tin tức & Hoạt động</h2>
+          <div className="max-w-3xl mx-auto">
+            <PostFeed />
           </div>
         </div>
       </section>
