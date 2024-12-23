@@ -9,7 +9,7 @@ export default function Home() {
       <section 
         className="h-[600px] bg-cover bg-center relative" 
         style={{
-          backgroundImage: 'url("/image/banner.jpg")'
+          backgroundImage: 'url("/image/banner.png")'
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50" />
